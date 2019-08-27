@@ -1,0 +1,45 @@
+{
+    "name": "bishopj88/clarival",
+    "description": "A Clarifai wrapper for Lumen/Laravel",
+    "keywords": [
+        "clarifai",
+        "clarival",
+        "ai",
+        "ocr",
+        "laravel ocr",
+        "laravel clarifai",
+        "bishopj",
+        "bishopj88",
+        "clarifai.com"
+    ],
+    "homepage": "https://github.com/bishopj88/Clarival",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Jeffrey Bishop",
+            "email": "info@pynex.nl"
+        }
+    ],
+    "require": {
+        "illuminate/http": "5.*",
+        "illuminate/routing": "5.*",
+        "illuminate/config": "5.*",
+        "illuminate/session": "5.*",
+        "illuminate/support": "5.*",
+        "php": ">=7.1.3",
+        "clarifai/clarifai-php": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BishopJ88\\Clarival\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
